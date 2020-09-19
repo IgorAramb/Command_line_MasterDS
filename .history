@@ -133,3 +133,177 @@ ll
 cd 
 cd Repos/Command_line_masterDS
 cp ~/.history .
+git add -u
+git commit -m "Quick exercise --> $(date)"
+alias
+cd
+ll
+alias
+gs
+alias gl='git log'
+gl
+cd Repos/Command_line_masterDS
+gl
+alias gc='git commit -m'
+exit
+gl
+ll -a
+gedit .zshrc
+gc
+exit
+gc
+alias
+cp .zshrc .zshrc.backup
+which ll
+which cd
+which git
+which python
+whereis python
+sudo which python 
+echo This Is ALL VERY VERY NICE 
+kjhkjh
+kljlkjdlrg
+git reset --hard 
+git clone https://github.com/IgorAramb/Command_line_masterDS.git 
+cd Repos/Command_line_masterDS
+cd
+cd Data/opentraveldata
+ll
+head optd_aircraft.csv
+cat optd_aircraft.csv
+tail optd_aircraft.csv
+head -3 optd_aircraft.csv
+head -n 3 optd_aircraft.csv
+head -n -3 optd_aircraft.csv
+wc optd_aircraft.csv
+wc -w optd_aircraft.csv
+cat optd_aircraft.csv
+wc optd_aircraft.csv
+cat optd_aircraft.csv | wc 
+cat optd_aircraft.csv | wc | wc
+cat optd_aircraft.csv | wc | wc | wc
+head -3 optd_aircraft.csv
+head -3 optd_aircraft.csv | wc
+head -8 optd_aircraft.csv
+head -8 optd_aircraft.csv | tail -1 
+cat -n optd_aircraft.csv
+cat -n optd_aircraft.csv | head -8
+cat -n optd_aircraft.csv | head -8 | tail -1
+echo Test
+echo Test >test_file
+cat test_file
+echo Test2 >test_file
+cat test_file
+echo Test3 >>test_file
+cat test_file
+<test_file wc 
+cat -n optd_aircraft.csv | head -8 | tail -1 
+cat -n optd_aircraft.csv | head -8 | tail -1 >line_number8.csv
+cat line_number8.csv
+cd ../shell
+ll
+head 5 Finn.txt
+head -5 Finn.txt
+head -5 Finn.txt | wc -l
+head -5 Finn.txt | wc -w
+tail -20 ~/.history > last_20_commands
+echo "This file is created by Kschool on: $(date)
+echo "This file is created by Kschool on: $(date)"
+echo "This file is created by Kschool on: $(date)">Kschool.file
+cat Kschool.file
+cd
+find 
+find . 
+find ./Repos
+find ./Repos | wc
+find ./Repos/Master_class2 |wc
+find . -name "text_file"
+find . -name "tExt_file"
+find  -name "tExt_file"
+find  -iname "tExt_file"
+find  -type -d -iname "tExt_file"
+find  -type d -iname "tExt_file"
+find  -type f -iname "tExt_file"
+find . -maxdepth 5 -type f -iname "tExt_file" 
+find . -maxdepth 5 -type d -iname "tExt_file" 
+find . -maxdepth 1 -type d -iname "tExt_file" 
+find . -maxdepth 2 -type d -iname "tExt_file" 
+find . -maxdepth 1 -type d -iname "tExt_file" 
+find -iname "text_file*"
+find -iname "text_file*" -perm 777 
+find -iname "text_file*" ! -perm 777 
+find -maxdepth 3 -empty
+find -maxdepth 3 -size 0
+find -maxdepth 3 -size 0k
+find -maxdepth 3 -size +10M
+find -maxdepth 3 -mmim -60
+find -maxdepth 3 -mmin -60
+find . -maxdepth 5 -type f -iname "tExt_file" 
+find . -maxdepth 5 -type f -iname "tExt_file*" 
+find . -maxdepth 2 -type f -iname "tExt_file*" 
+find . -maxdepth 3 -type f -iname "tExt_file*" 
+cd Data
+find . -type f -iname "*.csv"
+find . -type f -iname "*.csv" | wc
+find . -type f -iname "*.csv" -exec echo "FOUND ONE" \;
+find . -type f -iname "*.csv" -exec echo "FOUND ONE"
+find . -type f -iname "*.csv" -exec echo "FOUND ONE" ;
+echo this ; echo that 
+echo this echo that
+echo this \; echo that 
+find . -type f -iname "*.csv" -exec echo "FOUND ONE" \;
+find . -type f -iname "*.csv"
+ls -l ./airline_tickets/coupon150720.csv
+find . -type f -iname "*.csv" -exec ls -l {} \;
+find . -type f -iname "*.csv" -exec ls -l  \;
+find . -type f -iname "*.csv" -exec ls -l {} \;
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \;
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \; | wc
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \; | less -S
+find . -type f -iname "*.csv" -exec ls -l {} | wc \; 
+find . -type f -iname "*.csv" -exec zsh -c "ls -l {} | wc" \; 
+bash
+echo $1
+echo $0
+exit
+echo $0
+find . -type f -iname "*.csv" -exec zsh -c "ls -l {} | wc" \; 
+find . -type f -iname "*.csv" -ok zsh -c "ls -l {} | wc" \; 
+cd
+find . -type f -mmin -60 
+find . -mindepth 2 -type f -mmin -60 
+find . -mindepth 2 -type f -empty ! -perm 777
+find . -mindepth 2 -type f -empty ! -perm 777 -ok chmod 777 {} \;
+cd Data
+find . -type f
+find . -type d
+ls -l us_dot
+ls -l opentraveldata
+ls -S opentraveldata
+ls -lS opentraveldata
+ls -lSr opentraveldata
+ls -lS opentraveldata
+ls -l opentraveldata
+ls -lS opentraveldata
+ls -lSr opentraveldata
+sudo mount /dev/cdrom media/cdrom
+sudo mount /dev/cdrom /media/cdrom
+find . -type d 
+find . -type d -exec "ls -l {}" \; 
+find . -type d -exec echo {}  \; 
+find . -type d -exec ls -l {} \; 
+find . -mindepth 2 -type d -exec ls -l {} \; 
+find . -mindepth 1 -type d -exec ls -l {} \; 
+find . -mindepth 1 -type d 
+find . -mindepth 1 -type d -exec ls -l {} \; 
+find . -mindepth 1 -type d -exec ls -S {} \; 
+find . -mindepth 1 -type d -exec ls -lS {} \; 
+find . -mindepth 1 -type d -exec echo {} \; -exec ls -lS {} \; 
+find . -mindepth 1 -type d -exec echo {} \; -exec zsh -c "ls -lS {} | head 3" \; 
+find . -mindepth 1 -type d -exec echo {} \; -exec zsh -c "ls -lS {} | head -3" \; 
+find . -mindepth 1 -type d -exec echo {} \; -exec zsh -c "ls -lSh {} | head -3" \; 
+find . -mindepth 1 -type d -exec echo {} \; -exec zsh -c "ls -lSh {} | head -4" \; 
+cd ../Repos
+cd Command_line_masterDS
+cp ~/.history .
