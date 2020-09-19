@@ -1,0 +1,85 @@
+which python
+sudo which python
+which git
+sudo which git
+git config --global user.name "Igor Arambasic"
+git config --global user.email "igor.arambasic@gmail.com"
+cat .gitconfig
+cd 
+git config --global user.name "Igor "
+cat .gitconfig
+git config --global user.mail "Igor"amadeus "
+git config --global user.mail "Igor@amadeus "
+cat .gitconfig
+gedit .config
+gedit .gitconfig
+cat .gitconfig
+ls
+mkdir Repos
+cd Repos
+git clone https://github.com/IgorAramb/Master_class2.git
+git clone https://github.com/IgorAramb/Master_class2.git Otro_dir_name
+ls
+pwd
+git clone https://github.com/IgorAramb/Master_class2.git ../Pictures/nombre_repo_2
+ls ../Pictures
+ls
+git init Master_class_local_start
+ll
+cd Master_class_local_start
+cd
+cd -
+git status
+cd
+cd ..
+ls
+mkdir test
+cd -
+cd Repos
+cd Master_class_local_start
+ls -a
+cd
+git init
+cd ..
+cd 
+cd Repos
+cd 
+rm -rf .git
+cd Repos/Master_class_local_start
+ll
+git status
+touch first_file.txt
+touch second_file
+ll
+gedit first_file.txt
+git add first_file.txt
+git status
+#test
+echo Test 
+git staus
+git status
+ll
+git add second_file
+git status
+git commit -m "first commit"
+git status
+git log
+gedit first_file.txt
+git status
+git add -u
+git status
+git commit 
+git log
+git remote -v
+git remote add origin https://github.com/IgorAramb/Local_init.git
+git remote -v
+git branch -M master
+git push -u origin master
+cd
+cat .history
+cd Repos
+git clone https://github.com/IgorAramb/Command_line_masterDS.git 
+cd Command_line_masterDS
+cp ~/.history .
+ll
+cp ~/.history ./
