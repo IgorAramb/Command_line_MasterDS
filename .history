@@ -102,3 +102,34 @@ ls -a
 git push
 cp ~/.history History
 cp ~/.history .
+git add -u
+echo $(date)
+git commit -m "Date test $(date)"
+git log
+git push
+ll
+ls
+cd
+mkdir first_dir
+cd first_dir
+touch text_file.txt
+ll 
+chmod g+x,o+w text_file.txt
+ll
+mkdir sub1 sub2 text_file
+ll
+cp text_file.txt sub1
+ls sub1
+mv text_file.txt sub2/text_file.txt.2
+ls sub2
+cp sub1 sub3
+cp -r sub1 sub3
+ls sub3
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+mv sub2/text_file.txt.backup ./.text_file.txt.backup
+ls -a
+rm -r sub2
+ll
+cd 
+cd Repos/Command_line_masterDS
+cp ~/.history .
