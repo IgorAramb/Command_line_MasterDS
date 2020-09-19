@@ -83,3 +83,22 @@ cd Command_line_masterDS
 cp ~/.history .
 ll
 cp ~/.history ./
+ll
+ls -a
+git add .history
+git commit -m "first 5h of master"
+cd 
+pwd
+cd -
+cp ~/.history History
+ll
+ls -a
+gedit History
+ll
+gedit .history
+git reset HEAD
+git reset --hard 
+ls -a
+git push
+cp ~/.history History
+cp ~/.history .
